@@ -1,0 +1,48 @@
+form{
+ display: flex;
+ flex-direction: column;
+ min-height: 300px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.item label{
+    white-space: nowrap;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.item textarea{
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid #a8a7a7;
+    padding: 10px;
+}
+
+.item input{
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #a8a7a7;
+    padding: 4px;
+}
+
+.bto{
+    margin-top: 10px;
+    height: 40px;
+}
+
+.error{
+    color: red;
+    margin: 0 0 10px;
+}
+
+.success{
+    color: rgb(31, 208, 31);
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}

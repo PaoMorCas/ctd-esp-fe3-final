@@ -1,0 +1,13 @@
+
+.card img{
+    width: 100%;
+}
+
+.dark .card{
+    background-color: black;
+    color:white;
+}
+
+.card h4{
+    margin: 5px 0;
+}

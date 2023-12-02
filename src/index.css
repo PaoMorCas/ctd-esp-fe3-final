@@ -13,10 +13,14 @@ code {
 }
 .favButton{
   background-color: rgba(136, 136, 136, 0.116);
-  padding: 10px;
   border: none;
   width: 100%;
   cursor: pointer;
+  background-color: #00007a;
+}
+
+.dark .favButton{
+    background-color: #54b3c9;
 }
 
 h1{
@@ -65,8 +69,7 @@ form{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 300px;
-  height: 100px;
+  width: 400px;
   margin: 0 auto;
 }
 
@@ -76,7 +79,7 @@ form{
   flex-direction: column;
   align-items: center;
   width: 200px;
-  padding: 0.5rem 0.5rem 0 0.5rem;
+  padding: 0.5rem;
   border: 0.5px solid rgb(136, 136, 136);
 }
 
@@ -112,11 +115,15 @@ td, th {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
-
+/* 
 .dark{
   background-color: #12121296;
   color: white;
-}
+} */
 .dark > a {
   color: white;
+}
+
+.doctor-img{
+  width: 40%;
 }
